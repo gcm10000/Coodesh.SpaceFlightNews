@@ -63,12 +63,12 @@ namespace Coodesh.SpaceFlightNews.Web
                 {
                     Title = "Spaceflight News API",
                     Version = "v1",
-                    Description = "API pública com informações relacionadas a voos espaciais.",
+                    Description = "API p&uacute;blica com informa&ccedil;&otilde;es relacionadas a voos espaciais.",
                     Contact = new OpenApiContact
                     {
                         Name = "Gabriel Machado",
                         Email = string.Empty,
-                        Url = new Uri("https://github.com/gcm10000"),
+                        Url = new Uri("https://github.com/gcm10000")
                     },
                 });
             });
@@ -93,7 +93,7 @@ namespace Coodesh.SpaceFlightNews.Web
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Zomato API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Spaceflight News API V1");
 
                 c.RoutePrefix = string.Empty;
             });
