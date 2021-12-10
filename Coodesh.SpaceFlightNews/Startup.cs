@@ -91,11 +91,11 @@ namespace Coodesh.SpaceFlightNews.Web
 
             app.UseSwagger();
 
-            app.UseSwaggerUI(c =>
+            app.UseSwaggerUI(options =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Spaceflight News API V1");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Spaceflight News API V1");
 
-                c.RoutePrefix = string.Empty;
+                options.RoutePrefix = "swagger";
             });
 
             app.UseHttpsRedirection();
