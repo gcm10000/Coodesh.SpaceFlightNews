@@ -39,4 +39,3 @@ Para testar, a rota `/` deve retornar status 200 e uma mensagem "Back-end Challe
 
 As rotas foram desenvolvidas conforme o desafio solicita.
 
-Vídeo da apresentação do desafio encontra-se neste link: [https://www.loom.com/share/d5d2257e0a1f4695876d3d91c77fa63a](https://www.loom.com/share/d5d2257e0a1f4695876d3d91c77fa63a)
