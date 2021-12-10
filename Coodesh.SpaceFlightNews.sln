@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Web", "Coodesh.SpaceFlightNews\Coodesh.SpaceFlightNews.Web.csproj", "{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Web", "1- Web", "{70AD57BF-47B1-40A9-A3F7-B8ABB2987E0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.ViewModel", "Coodesh.SpaceFlightNews.Model\Coodesh.SpaceFlightNews.ViewModel.csproj", "{4DE7B7CB-DA0B-40FA-9215-A3E07622EF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Comum", "2- Comum", "{5A229821-5A9F-4583-9874-BE6CA56E3E2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Application", "3- Application", "{ADF10BB7-A7F2-46E0-A052-A2A9888069A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Services", "Coodesh.SpaceFlightNews.Services\Coodesh.SpaceFlightNews.Services.csproj", "{84A3DD8E-826E-484E-AF85-71297389F020}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.DTO", "Coodesh.SpaceFlightNews.DTO\Coodesh.SpaceFlightNews.DTO.csproj", "{8E7A1C3D-FD03-41F8-BF96-9383F3CDCAE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Repositories", "Coodesh.SpaceFlightNews.Repositories\Coodesh.SpaceFlightNews.Repositories.csproj", "{04696DFF-EE27-4009-8CC6-C895AEB2145D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Interfaces", "Coodesh.SpaceFlightNews.Interfaces\Coodesh.SpaceFlightNews.Interfaces.csproj", "{A859F85E-5825-49AD-936C-5A9E916AB3C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Jobs", "Coodesh.SpaceFlightNews.Jobs\Coodesh.SpaceFlightNews.Jobs.csproj", "{DD7140AC-00ED-4826-AC75-0F00EC639127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Tests", "4- Tests", "{D170D074-737C-477D-A9BB-53C50E29E65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coodesh.SpaceFlightNews.Tests.Controllers", "Coodesh.SpaceFlightNews.Tests.Controllers\Coodesh.SpaceFlightNews.Tests.Controllers.csproj", "{4022EDC5-1291-4F44-BAF0-BF318080A70E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE7B7CB-DA0B-40FA-9215-A3E07622EF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE7B7CB-DA0B-40FA-9215-A3E07622EF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE7B7CB-DA0B-40FA-9215-A3E07622EF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE7B7CB-DA0B-40FA-9215-A3E07622EF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A3DD8E-826E-484E-AF85-71297389F020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A3DD8E-826E-484E-AF85-71297389F020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A3DD8E-826E-484E-AF85-71297389F020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A3DD8E-826E-484E-AF85-71297389F020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7A1C3D-FD03-41F8-BF96-9383F3CDCAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7A1C3D-FD03-41F8-BF96-9383F3CDCAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7A1C3D-FD03-41F8-BF96-9383F3CDCAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7A1C3D-FD03-41F8-BF96-9383F3CDCAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04696DFF-EE27-4009-8CC6-C895AEB2145D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04696DFF-EE27-4009-8CC6-C895AEB2145D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04696DFF-EE27-4009-8CC6-C895AEB2145D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04696DFF-EE27-4009-8CC6-C895AEB2145D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A859F85E-5825-49AD-936C-5A9E916AB3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A859F85E-5825-49AD-936C-5A9E916AB3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A859F85E-5825-49AD-936C-5A9E916AB3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A859F85E-5825-49AD-936C-5A9E916AB3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7140AC-00ED-4826-AC75-0F00EC639127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7140AC-00ED-4826-AC75-0F00EC639127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7140AC-00ED-4826-AC75-0F00EC639127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7140AC-00ED-4826-AC75-0F00EC639127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4022EDC5-1291-4F44-BAF0-BF318080A70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4022EDC5-1291-4F44-BAF0-BF318080A70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4022EDC5-1291-4F44-BAF0-BF318080A70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4022EDC5-1291-4F44-BAF0-BF318080A70E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7} = {70AD57BF-47B1-40A9-A3F7-B8ABB2987E0B}
+		{4DE7B7CB-DA0B-40FA-9215-A3E07622EF4A} = {5A229821-5A9F-4583-9874-BE6CA56E3E2D}
+		{84A3DD8E-826E-484E-AF85-71297389F020} = {ADF10BB7-A7F2-46E0-A052-A2A9888069A3}
+		{8E7A1C3D-FD03-41F8-BF96-9383F3CDCAE4} = {ADF10BB7-A7F2-46E0-A052-A2A9888069A3}
+		{04696DFF-EE27-4009-8CC6-C895AEB2145D} = {ADF10BB7-A7F2-46E0-A052-A2A9888069A3}
+		{A859F85E-5825-49AD-936C-5A9E916AB3C0} = {5A229821-5A9F-4583-9874-BE6CA56E3E2D}
+		{DD7140AC-00ED-4826-AC75-0F00EC639127} = {ADF10BB7-A7F2-46E0-A052-A2A9888069A3}
+		{4022EDC5-1291-4F44-BAF0-BF318080A70E} = {D170D074-737C-477D-A9BB-53C50E29E65D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {629F6C38-C9CA-409D-AC54-4677BF1B747A}
+	EndGlobalSection
+EndGlobal

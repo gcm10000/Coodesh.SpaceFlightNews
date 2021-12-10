@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Coodesh.SpaceFlightNews.Web</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Interfaces\Coodesh.SpaceFlightNews.Interfaces.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Jobs\Coodesh.SpaceFlightNews.Jobs.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Repositories\Coodesh.SpaceFlightNews.Repositories.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Services\Coodesh.SpaceFlightNews.Services.csproj" />
+  </ItemGroup>
+
+</Project>

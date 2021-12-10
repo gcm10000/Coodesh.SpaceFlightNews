@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="automapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Quartz" Version="3.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.DTO\Coodesh.SpaceFlightNews.DTO.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Interfaces\Coodesh.SpaceFlightNews.Interfaces.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Jobs\Coodesh.SpaceFlightNews.Jobs.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Model\Coodesh.SpaceFlightNews.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
