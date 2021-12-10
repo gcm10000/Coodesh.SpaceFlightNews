@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace Coodesh.SpaceFlightNews.Tests.Controllers
+namespace Coodesh.SpaceFlightNews.Tests
 {
     public class UnitTestArticle
     {

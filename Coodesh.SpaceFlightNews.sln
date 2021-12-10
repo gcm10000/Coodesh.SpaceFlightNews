@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Job
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Tests", "4- Tests", "{D170D074-737C-477D-A9BB-53C50E29E65D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coodesh.SpaceFlightNews.Tests.Controllers", "Coodesh.SpaceFlightNews.Tests.Controllers\Coodesh.SpaceFlightNews.Tests.Controllers.csproj", "{4022EDC5-1291-4F44-BAF0-BF318080A70E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Tests", "Coodesh.SpaceFlightNews.Tests.Controllers\Coodesh.SpaceFlightNews.Tests.csproj", "{4022EDC5-1291-4F44-BAF0-BF318080A70E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
