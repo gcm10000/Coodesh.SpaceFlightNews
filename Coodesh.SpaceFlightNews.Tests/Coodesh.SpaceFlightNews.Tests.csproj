@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Coodesh.SpaceFlightNews.Interfaces\Coodesh.SpaceFlightNews.Interfaces.csproj" />
-    <ProjectReference Include="..\Coodesh.SpaceFlightNews\Coodesh.SpaceFlightNews.Web.csproj" />
+    <ProjectReference Include="..\Coodesh.SpaceFlightNews.Web\Coodesh.SpaceFlightNews.Web.csproj" />
   </ItemGroup>
 
 </Project>

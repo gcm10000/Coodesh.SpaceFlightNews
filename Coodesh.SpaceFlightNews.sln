@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Web", "Coodesh.SpaceFlightNews\Coodesh.SpaceFlightNews.Web.csproj", "{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Web", "Coodesh.SpaceFlightNews.Web\Coodesh.SpaceFlightNews.Web.csproj", "{CA141DE1-2DC7-41B8-8CE2-BEFBB10A8EC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Web", "1- Web", "{70AD57BF-47B1-40A9-A3F7-B8ABB2987E0B}"
 EndProject
@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Job
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Tests", "4- Tests", "{D170D074-737C-477D-A9BB-53C50E29E65D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Tests", "Coodesh.SpaceFlightNews.Tests.Controllers\Coodesh.SpaceFlightNews.Tests.csproj", "{4022EDC5-1291-4F44-BAF0-BF318080A70E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coodesh.SpaceFlightNews.Tests", "Coodesh.SpaceFlightNews.Tests\Coodesh.SpaceFlightNews.Tests.csproj", "{4022EDC5-1291-4F44-BAF0-BF318080A70E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
