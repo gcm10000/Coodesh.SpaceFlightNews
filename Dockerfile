@@ -24,16 +24,13 @@
 #ENTRYPOINT ["dotnet", "Coodesh.SpaceFlightNews.Web.dll"]
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
-WORKDIR /app
-# Copiar csproj e restaurar dependencias
-COPY *.csproj ./
-RUN dotnet restore
-#RUN pwsh -Command Write-Host "Mvc31: Gerando imagem Docker e testando o PowerShell Core"
-# Build da aplicacao
+WORKDIR /src
 COPY . ./
-RUN dotnet publish -c Release -o dist
-# Build da imagem
+WORKDIR /src/Coodesh.SpaceFlightNews
+RUN dotnet clean
+RUN dotnet restore
+RUN dotnet publish -c Release -o /app/
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
-COPY --from=build-env /app/dist .
+COPY --from=build-env /app/ .
 ENTRYPOINT ["dotnet", "Coodesh.SpaceFlightNews.Web.dll"]
