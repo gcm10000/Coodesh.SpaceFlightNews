@@ -8,9 +8,9 @@ COPY ["Coodesh.SpaceFlightNews.Model/Coodesh.SpaceFlightNews.Model.csproj", "Coo
 COPY ["Coodesh.SpaceFlightNews.Repositories/Coodesh.SpaceFlightNews.Repositories.csproj", "Coodesh.SpaceFlightNews.Repositories/"]
 COPY ["Coodesh.SpaceFlightNews.Services/Coodesh.SpaceFlightNews.Services.csproj", "Coodesh.SpaceFlightNews.Services/"]
 
-RUN dotnet restore "Sabesp.CHApis.Web/Sabesp.CHApis.Web.csproj"
+RUN dotnet restore "Coodesh.SpaceFlightNews/Coodesh.SpaceFlightNews.Web.csproj"
 COPY . .
-WORKDIR "/src/Sabesp.CHApis.Web"
+WORKDIR "/Coodesh.SpaceFlightNews"
 RUN dotnet build "Coodesh.SpaceFlightNews.Web.csproj" -c Release -o /app/build
 
 FROM build AS publish
